@@ -404,7 +404,7 @@ end
                 teleportPlayer(targetPosition)
                 wait(0.1) -- Adjust the delay as needed
 				
-				disablePhysicsRepeatedly(game.Players.LocalPlayer.Character, 0.1)
+				--  disablePhysicsRepeatedly(game.Players.LocalPlayer.Character, 0.1)
             end
         else
             LoopTpPoliceStation.BackgroundColor3 = Color3.fromRGB(49, 49, 49) -- Revert background color when off
