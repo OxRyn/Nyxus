@@ -42,12 +42,11 @@ local function v15(v16, v17, ...)
             v21 = nil;
             function v21(v31, v32, v33)
                 if v33 then
-                    local v81 = (v31 / (((1 + 4) - 3) ^ (v32 - (2 - 1)))) %
-                                    ((3 - 1) ^ (((v33 - 1) - (v32 - (2 - 1))) + (620 - (555 + 64))));
-                    return v81 - (v81 % (932 - (857 + 74)));
+                    local v84 = (v31 / (2 ^ (v32 - (2 - 1)))) % ((5 - 3) ^ (((v33 - 1) - (v32 - (1 - 0))) + (2 - 1)));
+                    return v84 - (v84 % (620 - (555 + 64)));
                 else
-                    local v82 = (570 - (367 + (1078 - (282 + 595)))) ^ (v32 - 1);
-                    return (((v31 % (v82 + v82)) >= v82) and (928 - (214 + 713))) or (0 + 0);
+                    local v85 = (933 - (857 + 74)) ^ (v32 - (569 - (367 + 32 + 169)));
+                    return (((v31 % (v85 + v85)) >= v85) and (928 - ((1091 - (282 + 595)) + 713))) or (0 + 0);
                 end
             end
             v22 = nil;
@@ -56,10 +55,21 @@ local function v15(v16, v17, ...)
         if (v18 == 3) then
             v24 = nil;
             function v24()
-                local v34, v35, v36, v37 = v1(v16, v19, v19 + (1640 - (1523 + 114)));
-                v19 = v19 + 4 + 0;
-                return (v37 * (23917454 - 7140238)) + (v36 * (66601 - ((295 - 227) + 997))) +
-                           (v35 * ((1643 - (32 + 85)) - (222 + 4 + 1044))) + v34;
+                local v34 = 1637 - (1523 + 112 + 2);
+                local v35;
+                local v36;
+                local v37;
+                local v38;
+                while true do
+                    if (v34 == (0 + 0 + 0)) then
+                        v35, v36, v37, v38 = v1(v16, v19, v19 + (3 - 0));
+                        v19 = v19 + (1069 - (68 + 997));
+                        v34 = 1271 - (226 + 1044);
+                    end
+                    if (v34 == (4 - 3)) then
+                        return (v38 * (16777333 - (32 + 85))) + (v37 * 65536) + (v36 * (1213 - (892 + 65))) + v35;
+                    end
+                end
             end
             v25 = nil;
             v18 = 4;
@@ -67,8 +77,7 @@ local function v15(v16, v17, ...)
         if (v18 == 6) then
             v29 = nil;
             function v29()
-                local v38 = 0 + 0;
-                local v39;
+                local v39 = 1926 - (1235 + 691);
                 local v40;
                 local v41;
                 local v42;
@@ -76,142 +85,853 @@ local function v15(v16, v17, ...)
                 local v44;
                 local v45;
                 local v46;
+                local v47;
                 while true do
-                    if (v38 == (3 - 0)) then
-                        v45 = nil;
-                        v46 = nil;
-                        v38 = 4 + 0;
-                    end
-                    if (0 == v38) then
-                        v39 = 0;
-                        v40 = nil;
-                        v38 = 1;
-                    end
-                    if (v38 ~= 1) then
+                    if (v39 ~= (1836 - (274 + 1561))) then
                     else
-                        v41 = nil;
                         v42 = nil;
-                        v38 = 2;
-                    end
-                    if (v38 == 2) then
                         v43 = nil;
-                        v44 = nil;
-                        v38 = 3;
+                        v39 = 2;
                     end
-                    if (v38 ~= 4) then
+                    if ((5 - 3) == v39) then
+                        v44 = nil;
+                        v45 = nil;
+                        v39 = 3;
+                    end
+                    if (v39 ~= (0 + 0)) then
                     else
+                        v40 = 0;
+                        v41 = nil;
+                        v39 = 1;
+                    end
+                    if (v39 == (244 - (187 + 54))) then
+                        v46 = nil;
+                        v47 = nil;
+                        v39 = 784 - (162 + 618);
+                    end
+                    if (v39 == (3 + 1)) then
                         while true do
-                            if (v39 == (1474 - (1329 + 145))) then
-                                local v96 = 971 - (140 + 831);
+                            if (v40 == (2 + 0)) then
+                                local v99 = 0;
                                 while true do
-                                    if (v96 ~= 1) then
-                                    else
-                                        v39 = 1851 - (1409 + 441);
-                                        break
-                                    end
-                                    if (v96 == 0) then
-                                        v40 = 0;
-                                        v41 = nil;
-                                        v96 = 1;
-                                    end
-                                end
-                            end
-                            if (v39 == (720 - (15 + 703))) then
-                                local v97 = 0 + 0;
-                                while true do
-                                    if (v97 == 0) then
-                                        v44 = nil;
+                                    if (0 == v99) then
                                         v45 = nil;
-                                        v97 = 1;
+                                        v46 = nil;
+                                        v99 = 1;
                                     end
-                                    if (v97 == (439 - (262 + 176))) then
-                                        v39 = 3;
+                                    if (v99 == 1) then
+                                        v40 = 6 - 3;
                                         break
                                     end
                                 end
                             end
-                            if (v39 == (1722 - (345 + 1376))) then
-                                local v98 = 0;
+                            if (v40 ~= 0) then
+                            else
+                                local v100 = 0 - 0;
                                 while true do
-                                    if (v98 ~= 1) then
+                                    if (v100 ~= (1 + 0)) then
                                     else
-                                        v39 = 2;
+                                        v40 = 1;
                                         break
                                     end
-                                    if (v98 ~= (688 - (198 + 490))) then
-                                    else
-                                        v42 = nil;
+                                    if (v100 == (1636 - (1373 + 263))) then
+                                        local v103 = 1000 - (451 + 549);
+                                        while true do
+                                            if (v103 == 0) then
+                                                v41 = 0;
+                                                v42 = nil;
+                                                v103 = 1 + 0;
+                                            end
+                                            if (v103 == (1 - 0)) then
+                                                v100 = 1 - 0;
+                                                break
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                            if (v40 == (1385 - (746 + 638))) then
+                                local v101 = 0 + 0;
+                                while true do
+                                    if ((0 - 0) == v101) then
                                         v43 = nil;
-                                        v98 = 1;
+                                        v44 = nil;
+                                        v101 = 342 - (218 + 123);
+                                    end
+                                    if (v101 == (1582 - (1535 + 46))) then
+                                        v40 = 2 + 0;
+                                        break
                                     end
                                 end
                             end
-                            if (v39 == 3) then
-                                v46 = nil;
+                            if (v40 ~= 3) then
+                            else
+                                v47 = nil;
                                 while true do
-                                    local v99 = 0 - 0;
+                                    local v102 = 0 + 0;
                                     while true do
-                                        if (v99 == (2 - 1)) then
-                                            if ((1209 - (696 + 510)) == v40) then
-                                                local v101 = 0 - 0;
-                                                local v102;
+                                        if (v102 == (560 - (306 + 254))) then
+                                            if (v41 == (1 + 2)) then
+                                                local v104 = 0 - 0;
+                                                local v105;
+                                                local v106;
                                                 while true do
-                                                    if (v101 ~= (1262 - (1091 + 171))) then
-                                                    else
-                                                        v102 = 0;
+                                                    if (v104 == 0) then
+                                                        v105 = 1467 - (899 + 568);
+                                                        v106 = nil;
+                                                        v104 = 1;
+                                                    end
+                                                    if (v104 == 1) then
                                                         while true do
-                                                            if (0 == v102) then
-                                                                for v191 = 1 + 0, v24() do
-                                                                    v42[v191 - 1] = v29();
+                                                            if (v105 == 0) then
+                                                                v106 = 0 + 0;
+                                                                while true do
+                                                                    if (v106 ~= (0 - 0)) then
+                                                                    else
+                                                                        local v207 = 0;
+                                                                        while true do
+                                                                            if (v207 == (603 - (268 + 335))) then
+                                                                                for v217 = 291 - (60 + 230), v24() do
+                                                                                    v43[v217 - (573 - (426 + 146))] =
+                                                                                        v29();
+                                                                                end
+                                                                                return v45;
+                                                                            end
+                                                                        end
+                                                                    end
                                                                 end
-                                                                return v44;
+                                                                break
                                                             end
                                                         end
                                                         break
                                                     end
                                                 end
                                             end
-                                            if (v40 == 1) then
-                                                local v103 = 0;
-                                                local v104;
+                                            if (v41 == (1 + 0)) then
+                                                local v107 = 0;
+                                                local v108;
                                                 while true do
-                                                    if (v103 ~= 0) then
-                                                    else
-                                                        v104 = 0 - 0;
+                                                    if (v107 == (1456 - (282 + 1174))) then
+                                                        v108 = 811 - (569 + 242);
                                                         while true do
-                                                            if (v104 ~= 1) then
-                                                            else
-                                                                v46 = {};
-                                                                v40 = 2;
+                                                            if (v108 == (0 - 0)) then
+                                                                local v193 = 0 + 0;
+                                                                while true do
+                                                                    if (v193 == 1) then
+                                                                        v108 = 1025 - (706 + 318);
+                                                                        break
+                                                                    end
+                                                                    if ((1251 - (721 + 530)) ~= v193) then
+                                                                    else
+                                                                        v45 = {v42, v43, nil, v44};
+                                                                        v46 = v24();
+                                                                        v193 = 1;
+                                                                    end
+                                                                end
+                                                            end
+                                                            if (1 == v108) then
+                                                                v47 = {};
+                                                                v41 = 2 + 0;
                                                                 break
                                                             end
-                                                            if (v104 == (0 - 0)) then
-                                                                local v184 = 374 - (123 + 251);
-                                                                local v185;
+                                                        end
+                                                        break
+                                                    end
+                                                end
+                                            end
+                                            v102 = 1;
+                                        end
+                                        if (v102 == (701 - (271 + 429))) then
+                                            if (v41 ~= (2 + 0)) then
+                                            else
+                                                local v109 = 1500 - (1408 + 92);
+                                                local v110;
+                                                while true do
+                                                    if (v109 ~= 0) then
+                                                    else
+                                                        v110 = 0;
+                                                        while true do
+                                                            if (v110 == (1086 - (461 + 625))) then
+                                                                local v194 = 0;
                                                                 while true do
-                                                                    if (v184 == (0 - 0)) then
-                                                                        v185 = 698 - (208 + 490);
-                                                                        while true do
-                                                                            if (0 ~= v185) then
-                                                                            else
-                                                                                local v203 = 0;
-                                                                                while true do
-                                                                                    if (v203 == (0 + 0)) then
-                                                                                        v44 = {v41, v42, nil, v43};
-                                                                                        v45 = v24();
-                                                                                        v203 = 203 - (14 + 188);
+                                                                    if (v194 == 0) then
+                                                                        for v211 = 1, v46 do
+                                                                            local v212 = 0;
+                                                                            local v213;
+                                                                            local v214;
+                                                                            while true do
+                                                                                if (v212 ~= 1) then
+                                                                                else
+                                                                                    if (v213 == 1) then
+                                                                                        v214 = v22() ~=
+                                                                                                   (1288 - (993 + 295));
+                                                                                    elseif (v213 == (1 + 1)) then
+                                                                                        v214 = v25();
+                                                                                    elseif (v213 ~= (1174 - (418 + 753))) then
+                                                                                    else
+                                                                                        v214 = v26();
                                                                                     end
-                                                                                    if (v203 == 1) then
-                                                                                        v185 = 1;
-                                                                                        break
+                                                                                    v47[v211] = v214;
+                                                                                    break
+                                                                                end
+                                                                                if (v212 == (0 + 0)) then
+                                                                                    local v220 = 0;
+                                                                                    while true do
+                                                                                        if (v220 == 0) then
+                                                                                            v213 = v22();
+                                                                                            v214 = nil;
+                                                                                            v220 = 1;
+                                                                                        end
+                                                                                        if (v220 ~= 1) then
+                                                                                        else
+                                                                                            v212 = 1;
+                                                                                            break
+                                                                                        end
                                                                                     end
                                                                                 end
                                                                             end
-                                                                            if (v185 == 1) then
-                                                                                v104 = 676 - (534 + 141);
-                                                                                break
-                                                                            end
                                                                         end
+                                                                        v45[3] = v22();
+                                                                        v194 = 1;
+                                                                    end
+                                                                    if (1 == v194) then
+                                                                        v110 = 1 + 0;
+                                                                        break
+                                                                    end
+                                                                end
+                                                            end
+                                                            if (v110 == (1 + 0)) then
+                                                                for v196 = 1, v24() do
+                                                                    local v197 = 0 + 0;
+                                                                    local v198;
+                                                                    local v199;
+                                                                    while true do
+                                                                        if (v197 == 0) then
+                                                                            v198 = 529 - (406 + 123);
+                                                                            v199 = nil;
+                                                                            v197 = 1;
+                                                                        end
+                                                                        if (v197 ~= (1770 - (1749 + 20))) then
+                                                                        else
+                                                                            while true do
+                                                                                if (0 == v198) then
+                                                                                    v199 = v22();
+                                                                                    if (v21(v199, 1, 1) == (0 + 0)) then
+                                                                                        local v221 = 0;
+                                                                                        local v222;
+                                                                                        local v223;
+                                                                                        local v224;
+                                                                                        local v225;
+                                                                                        local v226;
+                                                                                        local v227;
+                                                                                        while true do
+                                                                                            if (v221 ==
+                                                                                                (1325 - (1249 + 73))) then
+                                                                                                while true do
+                                                                                                    if (v222 ~= 2) then
+                                                                                                    else
+                                                                                                        v227 = nil;
+                                                                                                        while true do
+                                                                                                            if (2 ==
+                                                                                                                v223) then
+                                                                                                                while true do
+                                                                                                                    if (v224 ==
+                                                                                                                        (0 +
+                                                                                                                            0)) then
+                                                                                                                        local 
+                                                                                                                            v232 =
+                                                                                                                            0;
+                                                                                                                        local 
+                                                                                                                            v233;
+                                                                                                                        local 
+                                                                                                                            v234;
+                                                                                                                        while true do
+                                                                                                                            if (v232 ==
+                                                                                                                                (1146 -
+                                                                                                                                    (466 +
+                                                                                                                                        679))) then
+                                                                                                                                while true do
+                                                                                                                                    if (v233 ==
+                                                                                                                                        0) then
+                                                                                                                                        v234 =
+                                                                                                                                            0 -
+                                                                                                                                                0;
+                                                                                                                                        while true do
+                                                                                                                                            if (v234 ==
+                                                                                                                                                (0 -
+                                                                                                                                                    0)) then
+                                                                                                                                                local 
+                                                                                                                                                    v247 =
+                                                                                                                                                    0;
+                                                                                                                                                while true do
+                                                                                                                                                    if (1 ~=
+                                                                                                                                                        v247) then
+                                                                                                                                                    else
+                                                                                                                                                        v234 =
+                                                                                                                                                            1;
+                                                                                                                                                        break
+                                                                                                                                                    end
+                                                                                                                                                    if (0 ==
+                                                                                                                                                        v247) then
+                                                                                                                                                        v225 =
+                                                                                                                                                            v21(
+                                                                                                                                                                v199,
+                                                                                                                                                                1902 -
+                                                                                                                                                                    (106 +
+                                                                                                                                                                        1794),
+                                                                                                                                                                3);
+                                                                                                                                                        v226 =
+                                                                                                                                                            v21(
+                                                                                                                                                                v199,
+                                                                                                                                                                2 +
+                                                                                                                                                                    2,
+                                                                                                                                                                2 +
+                                                                                                                                                                    4);
+                                                                                                                                                        v247 =
+                                                                                                                                                            2 -
+                                                                                                                                                                1;
+                                                                                                                                                    end
+                                                                                                                                                end
+                                                                                                                                            end
+                                                                                                                                            if (v234 ~=
+                                                                                                                                                1) then
+                                                                                                                                            else
+                                                                                                                                                v224 =
+                                                                                                                                                    1;
+                                                                                                                                                break
+                                                                                                                                            end
+                                                                                                                                        end
+                                                                                                                                        break
+                                                                                                                                    end
+                                                                                                                                end
+                                                                                                                                break
+                                                                                                                            end
+                                                                                                                            if (v232 ==
+                                                                                                                                (0 -
+                                                                                                                                    0)) then
+                                                                                                                                v233 =
+                                                                                                                                    0;
+                                                                                                                                v234 =
+                                                                                                                                    nil;
+                                                                                                                                v232 =
+                                                                                                                                    1;
+                                                                                                                            end
+                                                                                                                        end
+                                                                                                                    end
+                                                                                                                    if (v224 ==
+                                                                                                                        2) then
+                                                                                                                        local 
+                                                                                                                            v235 =
+                                                                                                                            0;
+                                                                                                                        local 
+                                                                                                                            v236;
+                                                                                                                        while true do
+                                                                                                                            if (0 ~=
+                                                                                                                                v235) then
+                                                                                                                            else
+                                                                                                                                v236 =
+                                                                                                                                    0;
+                                                                                                                                while true do
+                                                                                                                                    if (v236 ~=
+                                                                                                                                        (115 -
+                                                                                                                                            (4 +
+                                                                                                                                                110))) then
+                                                                                                                                    else
+                                                                                                                                        v224 =
+                                                                                                                                            587 -
+                                                                                                                                                (57 +
+                                                                                                                                                    527);
+                                                                                                                                        break
+                                                                                                                                    end
+                                                                                                                                    if (v236 ~=
+                                                                                                                                        (1427 -
+                                                                                                                                            (41 +
+                                                                                                                                                1386))) then
+                                                                                                                                    else
+                                                                                                                                        local 
+                                                                                                                                            v243 =
+                                                                                                                                            0;
+                                                                                                                                        local 
+                                                                                                                                            v244;
+                                                                                                                                        while true do
+                                                                                                                                            if (v243 ==
+                                                                                                                                                (103 -
+                                                                                                                                                    (17 +
+                                                                                                                                                        86))) then
+                                                                                                                                                v244 =
+                                                                                                                                                    0 +
+                                                                                                                                                        0;
+                                                                                                                                                while true do
+                                                                                                                                                    if (v244 ==
+                                                                                                                                                        (1 -
+                                                                                                                                                            0)) then
+                                                                                                                                                        v236 =
+                                                                                                                                                            2 -
+                                                                                                                                                                1;
+                                                                                                                                                        break
+                                                                                                                                                    end
+                                                                                                                                                    if ((166 -
+                                                                                                                                                        (122 +
+                                                                                                                                                            44)) ==
+                                                                                                                                                        v244) then
+                                                                                                                                                        if (v21(
+                                                                                                                                                            v226,
+                                                                                                                                                            1 -
+                                                                                                                                                                0,
+                                                                                                                                                            3 -
+                                                                                                                                                                2) ==
+                                                                                                                                                            (1 +
+                                                                                                                                                                0)) then
+                                                                                                                                                            v227[2] =
+                                                                                                                                                                v47[v227[2]];
+                                                                                                                                                        end
+                                                                                                                                                        if (v21(
+                                                                                                                                                            v226,
+                                                                                                                                                            1 +
+                                                                                                                                                                1,
+                                                                                                                                                            3 -
+                                                                                                                                                                1) ==
+                                                                                                                                                            (66 -
+                                                                                                                                                                (30 +
+                                                                                                                                                                    35))) then
+                                                                                                                                                            v227[3] =
+                                                                                                                                                                v47[v227[3]];
+                                                                                                                                                        end
+                                                                                                                                                        v244 =
+                                                                                                                                                            1 +
+                                                                                                                                                                0;
+                                                                                                                                                    end
+                                                                                                                                                end
+                                                                                                                                                break
+                                                                                                                                            end
+                                                                                                                                        end
+                                                                                                                                    end
+                                                                                                                                end
+                                                                                                                                break
+                                                                                                                            end
+                                                                                                                        end
+                                                                                                                    end
+                                                                                                                    if (v224 ==
+                                                                                                                        1) then
+                                                                                                                        local 
+                                                                                                                            v237 =
+                                                                                                                            0;
+                                                                                                                        local 
+                                                                                                                            v238;
+                                                                                                                        while true do
+                                                                                                                            if (v237 ==
+                                                                                                                                (1257 -
+                                                                                                                                    (1043 +
+                                                                                                                                        214))) then
+                                                                                                                                v238 =
+                                                                                                                                    0 -
+                                                                                                                                        0;
+                                                                                                                                while true do
+                                                                                                                                    if (1 ~=
+                                                                                                                                        v238) then
+                                                                                                                                    else
+                                                                                                                                        v224 =
+                                                                                                                                            1214 -
+                                                                                                                                                (323 +
+                                                                                                                                                    889);
+                                                                                                                                        break
+                                                                                                                                    end
+                                                                                                                                    if (v238 ==
+                                                                                                                                        (0 -
+                                                                                                                                            0)) then
+                                                                                                                                        local 
+                                                                                                                                            v245 =
+                                                                                                                                            580 -
+                                                                                                                                                (361 +
+                                                                                                                                                    219);
+                                                                                                                                        local 
+                                                                                                                                            v246;
+                                                                                                                                        while true do
+                                                                                                                                            if (v245 ~=
+                                                                                                                                                (320 -
+                                                                                                                                                    (53 +
+                                                                                                                                                        267))) then
+                                                                                                                                            else
+                                                                                                                                                v246 =
+                                                                                                                                                    0;
+                                                                                                                                                while true do
+                                                                                                                                                    if (v246 ==
+                                                                                                                                                        0) then
+                                                                                                                                                        v227 =
+                                                                                                                                                            {v23(),
+                                                                                                                                                             v23(),
+                                                                                                                                                             nil,
+                                                                                                                                                             nil};
+                                                                                                                                                        if (v225 ==
+                                                                                                                                                            0) then
+                                                                                                                                                            local 
+                                                                                                                                                                v252 =
+                                                                                                                                                                0;
+                                                                                                                                                            local 
+                                                                                                                                                                v253;
+                                                                                                                                                            local 
+                                                                                                                                                                v254;
+                                                                                                                                                            local 
+                                                                                                                                                                v255;
+                                                                                                                                                            while true do
+                                                                                                                                                                if ((414 -
+                                                                                                                                                                    (15 +
+                                                                                                                                                                        398)) ~=
+                                                                                                                                                                    v252) then
+                                                                                                                                                                else
+                                                                                                                                                                    v255 =
+                                                                                                                                                                        nil;
+                                                                                                                                                                    while true do
+                                                                                                                                                                        if (v253 ==
+                                                                                                                                                                            1) then
+                                                                                                                                                                            while true do
+                                                                                                                                                                                if (0 ==
+                                                                                                                                                                                    v254) then
+                                                                                                                                                                                    v255 =
+                                                                                                                                                                                        0;
+                                                                                                                                                                                    while true do
+                                                                                                                                                                                        if (v255 ~=
+                                                                                                                                                                                            0) then
+                                                                                                                                                                                        else
+                                                                                                                                                                                            v227[985 -
+                                                                                                                                                                                                (18 +
+                                                                                                                                                                                                    964)] =
+                                                                                                                                                                                                v23();
+                                                                                                                                                                                            v227[4] =
+                                                                                                                                                                                                v23();
+                                                                                                                                                                                            break
+                                                                                                                                                                                        end
+                                                                                                                                                                                    end
+                                                                                                                                                                                    break
+                                                                                                                                                                                end
+                                                                                                                                                                            end
+                                                                                                                                                                            break
+                                                                                                                                                                        end
+                                                                                                                                                                        if (v253 ==
+                                                                                                                                                                            (0 -
+                                                                                                                                                                                0)) then
+                                                                                                                                                                            local 
+                                                                                                                                                                                v258 =
+                                                                                                                                                                                0;
+                                                                                                                                                                            while true do
+                                                                                                                                                                                if (v258 ==
+                                                                                                                                                                                    (1 +
+                                                                                                                                                                                        0)) then
+                                                                                                                                                                                    v253 =
+                                                                                                                                                                                        1 +
+                                                                                                                                                                                            0;
+                                                                                                                                                                                    break
+                                                                                                                                                                                end
+                                                                                                                                                                                if (v258 ==
+                                                                                                                                                                                    0) then
+                                                                                                                                                                                    v254 =
+                                                                                                                                                                                        850 -
+                                                                                                                                                                                            (20 +
+                                                                                                                                                                                                830);
+                                                                                                                                                                                    v255 =
+                                                                                                                                                                                        nil;
+                                                                                                                                                                                    v258 =
+                                                                                                                                                                                        1;
+                                                                                                                                                                                end
+                                                                                                                                                                            end
+                                                                                                                                                                        end
+                                                                                                                                                                    end
+                                                                                                                                                                    break
+                                                                                                                                                                end
+                                                                                                                                                                if (v252 ==
+                                                                                                                                                                    (0 +
+                                                                                                                                                                        0)) then
+                                                                                                                                                                    v253 =
+                                                                                                                                                                        0;
+                                                                                                                                                                    v254 =
+                                                                                                                                                                        nil;
+                                                                                                                                                                    v252 =
+                                                                                                                                                                        127 -
+                                                                                                                                                                            (116 +
+                                                                                                                                                                                10);
+                                                                                                                                                                end
+                                                                                                                                                            end
+                                                                                                                                                        elseif (v225 ==
+                                                                                                                                                            (1 +
+                                                                                                                                                                0)) then
+                                                                                                                                                            v227[741 -
+                                                                                                                                                                (542 +
+                                                                                                                                                                    196)] =
+                                                                                                                                                                v24();
+                                                                                                                                                        elseif (v225 ==
+                                                                                                                                                            (3 -
+                                                                                                                                                                1)) then
+                                                                                                                                                            v227[3] =
+                                                                                                                                                                v24() -
+                                                                                                                                                                    ((1 +
+                                                                                                                                                                        1) ^
+                                                                                                                                                                        16);
+                                                                                                                                                        elseif (v225 ~=
+                                                                                                                                                            3) then
+                                                                                                                                                        else
+                                                                                                                                                            local 
+                                                                                                                                                                v259 =
+                                                                                                                                                                0 +
+                                                                                                                                                                    0;
+                                                                                                                                                            local 
+                                                                                                                                                                v260;
+                                                                                                                                                            while true do
+                                                                                                                                                                if (v259 ==
+                                                                                                                                                                    0) then
+                                                                                                                                                                    v260 =
+                                                                                                                                                                        0;
+                                                                                                                                                                    while true do
+                                                                                                                                                                        if (v260 ==
+                                                                                                                                                                            0) then
+                                                                                                                                                                            v227[3] =
+                                                                                                                                                                                v24() -
+                                                                                                                                                                                    (2 ^
+                                                                                                                                                                                        16);
+                                                                                                                                                                            v227[2 +
+                                                                                                                                                                                2] =
+                                                                                                                                                                                v23();
+                                                                                                                                                                            break
+                                                                                                                                                                        end
+                                                                                                                                                                    end
+                                                                                                                                                                    break
+                                                                                                                                                                end
+                                                                                                                                                            end
+                                                                                                                                                        end
+                                                                                                                                                        v246 =
+                                                                                                                                                            1;
+                                                                                                                                                    end
+                                                                                                                                                    if (v246 ~=
+                                                                                                                                                        1) then
+                                                                                                                                                    else
+                                                                                                                                                        v238 =
+                                                                                                                                                            2 -
+                                                                                                                                                                1;
+                                                                                                                                                        break
+                                                                                                                                                    end
+                                                                                                                                                end
+                                                                                                                                                break
+                                                                                                                                            end
+                                                                                                                                        end
+                                                                                                                                    end
+                                                                                                                                end
+                                                                                                                                break
+                                                                                                                            end
+                                                                                                                        end
+                                                                                                                    end
+                                                                                                                    if (v224 ~=
+                                                                                                                        (7 -
+                                                                                                                            4)) then
+                                                                                                                    else
+                                                                                                                        if (v21(
+                                                                                                                            v226,
+                                                                                                                            1554 -
+                                                                                                                                (1126 +
+                                                                                                                                    425),
+                                                                                                                            408 -
+                                                                                                                                (118 +
+                                                                                                                                    287)) ==
+                                                                                                                            (3 -
+                                                                                                                                2)) then
+                                                                                                                            v227[4] =
+                                                                                                                                v47[v227[4]];
+                                                                                                                        end
+                                                                                                                        v42[v196] =
+                                                                                                                            v227;
+                                                                                                                        break
+                                                                                                                    end
+                                                                                                                end
+                                                                                                                break
+                                                                                                            end
+                                                                                                            if (v223 ~=
+                                                                                                                (1122 -
+                                                                                                                    (118 +
+                                                                                                                        1003))) then
+                                                                                                            else
+                                                                                                                local 
+                                                                                                                    v230 =
+                                                                                                                    0;
+                                                                                                                while true do
+                                                                                                                    if (v230 ==
+                                                                                                                        (0 -
+                                                                                                                            0)) then
+                                                                                                                        v226 =
+                                                                                                                            nil;
+                                                                                                                        v227 =
+                                                                                                                            nil;
+                                                                                                                        v230 =
+                                                                                                                            378 -
+                                                                                                                                (142 +
+                                                                                                                                    235);
+                                                                                                                    end
+                                                                                                                    if (v230 ==
+                                                                                                                        1) then
+                                                                                                                        v223 =
+                                                                                                                            9 -
+                                                                                                                                7;
+                                                                                                                        break
+                                                                                                                    end
+                                                                                                                end
+                                                                                                            end
+                                                                                                            if (v223 ==
+                                                                                                                (0 + 0)) then
+                                                                                                                local 
+                                                                                                                    v231 =
+                                                                                                                    977 -
+                                                                                                                        (553 +
+                                                                                                                            424);
+                                                                                                                while true do
+                                                                                                                    if (v231 ==
+                                                                                                                        (1 -
+                                                                                                                            0)) then
+                                                                                                                        v223 =
+                                                                                                                            1 +
+                                                                                                                                0;
+                                                                                                                        break
+                                                                                                                    end
+                                                                                                                    if (v231 ==
+                                                                                                                        (0 +
+                                                                                                                            0)) then
+                                                                                                                        local 
+                                                                                                                            v240 =
+                                                                                                                            0;
+                                                                                                                        while true do
+                                                                                                                            if (v240 ==
+                                                                                                                                1) then
+                                                                                                                                v231 =
+                                                                                                                                    1 +
+                                                                                                                                        0;
+                                                                                                                                break
+                                                                                                                            end
+                                                                                                                            if (v240 ~=
+                                                                                                                                (0 +
+                                                                                                                                    0)) then
+                                                                                                                            else
+                                                                                                                                v224 =
+                                                                                                                                    0;
+                                                                                                                                v225 =
+                                                                                                                                    nil;
+                                                                                                                                v240 =
+                                                                                                                                    1 +
+                                                                                                                                        0;
+                                                                                                                            end
+                                                                                                                        end
+                                                                                                                    end
+                                                                                                                end
+                                                                                                            end
+                                                                                                        end
+                                                                                                        break
+                                                                                                    end
+                                                                                                    if (v222 ~= 0) then
+                                                                                                    else
+                                                                                                        local v228 = 0 -
+                                                                                                                         0;
+                                                                                                        while true do
+                                                                                                            if (v228 ==
+                                                                                                                (0 - 0)) then
+                                                                                                                v223 =
+                                                                                                                    0 -
+                                                                                                                        0;
+                                                                                                                v224 =
+                                                                                                                    nil;
+                                                                                                                v228 =
+                                                                                                                    1 +
+                                                                                                                        0;
+                                                                                                            end
+                                                                                                            if (v228 ==
+                                                                                                                1) then
+                                                                                                                v222 =
+                                                                                                                    4 -
+                                                                                                                        3;
+                                                                                                                break
+                                                                                                            end
+                                                                                                        end
+                                                                                                    end
+                                                                                                    if (v222 ~= 1) then
+                                                                                                    else
+                                                                                                        local v229 = 0;
+                                                                                                        while true do
+                                                                                                            if (v229 ==
+                                                                                                                0) then
+                                                                                                                v225 =
+                                                                                                                    nil;
+                                                                                                                v226 =
+                                                                                                                    nil;
+                                                                                                                v229 = 1;
+                                                                                                            end
+                                                                                                            if (v229 ~=
+                                                                                                                (754 -
+                                                                                                                    (239 +
+                                                                                                                        514))) then
+                                                                                                            else
+                                                                                                                v222 =
+                                                                                                                    1 +
+                                                                                                                        1;
+                                                                                                                break
+                                                                                                            end
+                                                                                                        end
+                                                                                                    end
+                                                                                                end
+                                                                                                break
+                                                                                            end
+                                                                                            if (0 == v221) then
+                                                                                                v222 = 0;
+                                                                                                v223 = nil;
+                                                                                                v221 = 1;
+                                                                                            end
+                                                                                            if (v221 ==
+                                                                                                (1330 - (797 + 532))) then
+                                                                                                v224 = nil;
+                                                                                                v225 = nil;
+                                                                                                v221 = 2 + 0;
+                                                                                            end
+                                                                                            if (v221 ~= (1 + 1)) then
+                                                                                            else
+                                                                                                v226 = nil;
+                                                                                                v227 = nil;
+                                                                                                v221 = 3;
+                                                                                            end
+                                                                                        end
+                                                                                    end
+                                                                                    break
+                                                                                end
+                                                                            end
+                                                                            break
+                                                                        end
+                                                                    end
+                                                                end
+                                                                v41 = 6 - 3;
+                                                                break
+                                                            end
+                                                        end
+                                                        break
+                                                    end
+                                                end
+                                            end
+                                            if (v41 == 0) then
+                                                local v111 = 1202 - (373 + 829);
+                                                local v112;
+                                                while true do
+                                                    if (v111 ~= (731 - (476 + 255))) then
+                                                    else
+                                                        v112 = 1130 - (369 + 761);
+                                                        while true do
+                                                            if (v112 ~= (1 + 0)) then
+                                                            else
+                                                                v44 = {};
+                                                                v41 = 1;
+                                                                break
+                                                            end
+                                                            if (v112 == (0 - 0)) then
+                                                                local v195 = 0 - 0;
+                                                                while true do
+                                                                    if (v195 ~= (238 - (64 + 174))) then
+                                                                    else
+                                                                        v42 = {};
+                                                                        v43 = {};
+                                                                        v195 = 1 + 0;
+                                                                    end
+                                                                    if (1 == v195) then
+                                                                        v112 = 1;
                                                                         break
                                                                     end
                                                                 end
@@ -222,509 +942,6 @@ local function v15(v16, v17, ...)
                                                 end
                                             end
                                             break
-                                        end
-                                        if (v99 ~= (0 + 0)) then
-                                        else
-                                            local v100 = 0 + 0;
-                                            while true do
-                                                if (v100 == 0) then
-                                                    if (v40 == (2 + 0)) then
-                                                        local v105 = 0;
-                                                        local v106;
-                                                        local v107;
-                                                        while true do
-                                                            if (v105 == (1 - 0)) then
-                                                                while true do
-                                                                    if (0 ~= v106) then
-                                                                    else
-                                                                        v107 = 0 - 0;
-                                                                        while true do
-                                                                            if (v107 ~= 0) then
-                                                                            else
-                                                                                local v204 = 0 - 0;
-                                                                                local v205;
-                                                                                while true do
-                                                                                    if (0 ~= v204) then
-                                                                                    else
-                                                                                        v205 = 0 + 0;
-                                                                                        while true do
-                                                                                            if (v205 == (0 + 0)) then
-                                                                                                for v212 = 397 -
-                                                                                                    (115 + 281), v45 do
-                                                                                                    local v213 = 0;
-                                                                                                    local v214;
-                                                                                                    local v215;
-                                                                                                    local v216;
-                                                                                                    local v217;
-                                                                                                    while true do
-                                                                                                        if (v213 == 2) then
-                                                                                                            while true do
-                                                                                                                if (v214 ~=
-                                                                                                                    1) then
-                                                                                                                else
-                                                                                                                    v217 =
-                                                                                                                        nil;
-                                                                                                                    while true do
-                                                                                                                        if (v215 ==
-                                                                                                                            1) then
-                                                                                                                            if (v216 ==
-                                                                                                                                (2 -
-                                                                                                                                    1)) then
-                                                                                                                                v217 =
-                                                                                                                                    v22() ~=
-                                                                                                                                        (0 +
-                                                                                                                                            0);
-                                                                                                                            elseif (v216 ==
-                                                                                                                                2) then
-                                                                                                                                v217 =
-                                                                                                                                    v25();
-                                                                                                                            elseif (v216 ~=
-                                                                                                                                (7 -
-                                                                                                                                    4)) then
-                                                                                                                            else
-                                                                                                                                v217 =
-                                                                                                                                    v26();
-                                                                                                                            end
-                                                                                                                            v46[v212] =
-                                                                                                                                v217;
-                                                                                                                            break
-                                                                                                                        end
-                                                                                                                        if (v215 ==
-                                                                                                                            (0 -
-                                                                                                                                0)) then
-                                                                                                                            v216 =
-                                                                                                                                v22();
-                                                                                                                            v217 =
-                                                                                                                                nil;
-                                                                                                                            v215 =
-                                                                                                                                868 -
-                                                                                                                                    (550 +
-                                                                                                                                        317);
-                                                                                                                        end
-                                                                                                                    end
-                                                                                                                    break
-                                                                                                                end
-                                                                                                                if (v214 ~=
-                                                                                                                    (0 -
-                                                                                                                        0)) then
-                                                                                                                else
-                                                                                                                    v215 =
-                                                                                                                        0;
-                                                                                                                    v216 =
-                                                                                                                        nil;
-                                                                                                                    v214 =
-                                                                                                                        1;
-                                                                                                                end
-                                                                                                            end
-                                                                                                            break
-                                                                                                        end
-                                                                                                        if (v213 == 1) then
-                                                                                                            v216 = nil;
-                                                                                                            v217 = nil;
-                                                                                                            v213 = 2 - 0;
-                                                                                                        end
-                                                                                                        if (v213 ~= 0) then
-                                                                                                        else
-                                                                                                            v214 = 0;
-                                                                                                            v215 = nil;
-                                                                                                            v213 = 2 - 1;
-                                                                                                        end
-                                                                                                    end
-                                                                                                end
-                                                                                                v44[3] = v22();
-                                                                                                v205 = 1;
-                                                                                            end
-                                                                                            if (v205 ~= 1) then
-                                                                                            else
-                                                                                                v107 = 286 - (134 + 151);
-                                                                                                break
-                                                                                            end
-                                                                                        end
-                                                                                        break
-                                                                                    end
-                                                                                end
-                                                                            end
-                                                                            if (v107 == (1666 - (970 + 695))) then
-                                                                                for v207 = 1 - 0, v24() do
-                                                                                    local v208 = 1990 - (582 + 1408);
-                                                                                    local v209;
-                                                                                    local v210;
-                                                                                    while true do
-                                                                                        if (v208 == (3 - 2)) then
-                                                                                            while true do
-                                                                                                if (v209 == (0 - 0)) then
-                                                                                                    v210 = v22();
-                                                                                                    if (v21(v210, 1,
-                                                                                                        3 - 2) ~=
-                                                                                                        (1824 -
-                                                                                                            (1195 + 629))) then
-                                                                                                    else
-                                                                                                        local v218 = 0;
-                                                                                                        local v219;
-                                                                                                        local v220;
-                                                                                                        local v221;
-                                                                                                        local v222;
-                                                                                                        while true do
-                                                                                                            if (v218 ==
-                                                                                                                (1 - 0)) then
-                                                                                                                v221 =
-                                                                                                                    nil;
-                                                                                                                v222 =
-                                                                                                                    nil;
-                                                                                                                v218 = 2;
-                                                                                                            end
-                                                                                                            if (v218 ==
-                                                                                                                (241 -
-                                                                                                                    (187 +
-                                                                                                                        54))) then
-                                                                                                                v219 =
-                                                                                                                    780 -
-                                                                                                                        (162 +
-                                                                                                                            618);
-                                                                                                                v220 =
-                                                                                                                    nil;
-                                                                                                                v218 =
-                                                                                                                    1 +
-                                                                                                                        0;
-                                                                                                            end
-                                                                                                            if (v218 ~=
-                                                                                                                (2 + 0)) then
-                                                                                                            else
-                                                                                                                while true do
-                                                                                                                    if (v219 ==
-                                                                                                                        (6 -
-                                                                                                                            3)) then
-                                                                                                                        if (v21(
-                                                                                                                            v221,
-                                                                                                                            3,
-                                                                                                                            4 -
-                                                                                                                                1) ==
-                                                                                                                            1) then
-                                                                                                                            v222[1 +
-                                                                                                                                3] =
-                                                                                                                                v46[v222[4]];
-                                                                                                                        end
-                                                                                                                        v41[v207] =
-                                                                                                                            v222;
-                                                                                                                        break
-                                                                                                                    end
-                                                                                                                    if (v219 ~=
-                                                                                                                        (1638 -
-                                                                                                                            (1373 +
-                                                                                                                                263))) then
-                                                                                                                    else
-                                                                                                                        local 
-                                                                                                                            v224 =
-                                                                                                                            1000 -
-                                                                                                                                (451 +
-                                                                                                                                    549);
-                                                                                                                        while true do
-                                                                                                                            if (v224 ~=
-                                                                                                                                (1 +
-                                                                                                                                    0)) then
-                                                                                                                            else
-                                                                                                                                v219 =
-                                                                                                                                    3;
-                                                                                                                                break
-                                                                                                                            end
-                                                                                                                            if (v224 ==
-                                                                                                                                0) then
-                                                                                                                                if (v21(
-                                                                                                                                    v221,
-                                                                                                                                    1,
-                                                                                                                                    1) ==
-                                                                                                                                    (1 -
-                                                                                                                                        0)) then
-                                                                                                                                    v222[2 -
-                                                                                                                                        0] =
-                                                                                                                                        v46[v222[1386 -
-                                                                                                                                            (746 +
-                                                                                                                                                638)]];
-                                                                                                                                end
-                                                                                                                                if (v21(
-                                                                                                                                    v221,
-                                                                                                                                    1 +
-                                                                                                                                        1,
-                                                                                                                                    2) ==
-                                                                                                                                    (1 -
-                                                                                                                                        0)) then
-                                                                                                                                    v222[344 -
-                                                                                                                                        (218 +
-                                                                                                                                            123)] =
-                                                                                                                                        v46[v222[1584 -
-                                                                                                                                            (1535 +
-                                                                                                                                                46)]];
-                                                                                                                                end
-                                                                                                                                v224 =
-                                                                                                                                    1 +
-                                                                                                                                        0;
-                                                                                                                            end
-                                                                                                                        end
-                                                                                                                    end
-                                                                                                                    if (v219 ==
-                                                                                                                        0) then
-                                                                                                                        v220 =
-                                                                                                                            v21(
-                                                                                                                                v210,
-                                                                                                                                1 +
-                                                                                                                                    1,
-                                                                                                                                3);
-                                                                                                                        v221 =
-                                                                                                                            v21(
-                                                                                                                                v210,
-                                                                                                                                4,
-                                                                                                                                566 -
-                                                                                                                                    (306 +
-                                                                                                                                        254));
-                                                                                                                        v219 =
-                                                                                                                            1 +
-                                                                                                                                0;
-                                                                                                                    end
-                                                                                                                    if (v219 ==
-                                                                                                                        1) then
-                                                                                                                        local 
-                                                                                                                            v225 =
-                                                                                                                            0;
-                                                                                                                        while true do
-                                                                                                                            if (v225 ~=
-                                                                                                                                (1 -
-                                                                                                                                    0)) then
-                                                                                                                            else
-                                                                                                                                v219 =
-                                                                                                                                    2;
-                                                                                                                                break
-                                                                                                                            end
-                                                                                                                            if (v225 ==
-                                                                                                                                0) then
-                                                                                                                                v222 =
-                                                                                                                                    {v23(),
-                                                                                                                                     v23(),
-                                                                                                                                     nil,
-                                                                                                                                     nil};
-                                                                                                                                if (v220 ==
-                                                                                                                                    0) then
-                                                                                                                                    local 
-                                                                                                                                        v233 =
-                                                                                                                                        0;
-                                                                                                                                    local 
-                                                                                                                                        v234;
-                                                                                                                                    local 
-                                                                                                                                        v235;
-                                                                                                                                    while true do
-                                                                                                                                        if (v233 ==
-                                                                                                                                            0) then
-                                                                                                                                            v234 =
-                                                                                                                                                0;
-                                                                                                                                            v235 =
-                                                                                                                                                nil;
-                                                                                                                                            v233 =
-                                                                                                                                                1;
-                                                                                                                                        end
-                                                                                                                                        if (v233 ==
-                                                                                                                                            1) then
-                                                                                                                                            while true do
-                                                                                                                                                if (v234 ~=
-                                                                                                                                                    0) then
-                                                                                                                                                else
-                                                                                                                                                    v235 =
-                                                                                                                                                        0;
-                                                                                                                                                    while true do
-                                                                                                                                                        if (v235 ~=
-                                                                                                                                                            0) then
-                                                                                                                                                        else
-                                                                                                                                                            v222[3] =
-                                                                                                                                                                v23();
-                                                                                                                                                            v222[4] =
-                                                                                                                                                                v23();
-                                                                                                                                                            break
-                                                                                                                                                        end
-                                                                                                                                                    end
-                                                                                                                                                    break
-                                                                                                                                                end
-                                                                                                                                            end
-                                                                                                                                            break
-                                                                                                                                        end
-                                                                                                                                    end
-                                                                                                                                elseif (v220 ==
-                                                                                                                                    1) then
-                                                                                                                                    v222[606 -
-                                                                                                                                        (268 +
-                                                                                                                                            335)] =
-                                                                                                                                        v24();
-                                                                                                                                elseif (v220 ==
-                                                                                                                                    (292 -
-                                                                                                                                        (60 +
-                                                                                                                                            230))) then
-                                                                                                                                    v222[575 -
-                                                                                                                                        (426 +
-                                                                                                                                            146)] =
-                                                                                                                                        v24() -
-                                                                                                                                            ((1 +
-                                                                                                                                                1) ^
-                                                                                                                                                16);
-                                                                                                                                elseif (v220 ==
-                                                                                                                                    3) then
-                                                                                                                                    local 
-                                                                                                                                        v238 =
-                                                                                                                                        1456 -
-                                                                                                                                            (282 +
-                                                                                                                                                1174);
-                                                                                                                                    local 
-                                                                                                                                        v239;
-                                                                                                                                    local 
-                                                                                                                                        v240;
-                                                                                                                                    while true do
-                                                                                                                                        if (v238 ~=
-                                                                                                                                            0) then
-                                                                                                                                        else
-                                                                                                                                            local 
-                                                                                                                                                v243 =
-                                                                                                                                                0;
-                                                                                                                                            while true do
-                                                                                                                                                if (v243 ~=
-                                                                                                                                                    (812 -
-                                                                                                                                                        (569 +
-                                                                                                                                                            242))) then
-                                                                                                                                                else
-                                                                                                                                                    v238 =
-                                                                                                                                                        1;
-                                                                                                                                                    break
-                                                                                                                                                end
-                                                                                                                                                if (v243 ==
-                                                                                                                                                    0) then
-                                                                                                                                                    v239 =
-                                                                                                                                                        0 -
-                                                                                                                                                            0;
-                                                                                                                                                    v240 =
-                                                                                                                                                        nil;
-                                                                                                                                                    v243 =
-                                                                                                                                                        1 +
-                                                                                                                                                            0;
-                                                                                                                                                end
-                                                                                                                                            end
-                                                                                                                                        end
-                                                                                                                                        if (v238 ~=
-                                                                                                                                            1) then
-                                                                                                                                        else
-                                                                                                                                            while true do
-                                                                                                                                                if (v239 ==
-                                                                                                                                                    (1024 -
-                                                                                                                                                        (706 +
-                                                                                                                                                            318))) then
-                                                                                                                                                    v240 =
-                                                                                                                                                        0;
-                                                                                                                                                    while true do
-                                                                                                                                                        if (v240 ==
-                                                                                                                                                            0) then
-                                                                                                                                                            v222[1254 -
-                                                                                                                                                                (721 +
-                                                                                                                                                                    530)] =
-                                                                                                                                                                v24() -
-                                                                                                                                                                    (2 ^
-                                                                                                                                                                        16);
-                                                                                                                                                            v222[1275 -
-                                                                                                                                                                (945 +
-                                                                                                                                                                    326)] =
-                                                                                                                                                                v23();
-                                                                                                                                                            break
-                                                                                                                                                        end
-                                                                                                                                                    end
-                                                                                                                                                    break
-                                                                                                                                                end
-                                                                                                                                            end
-                                                                                                                                            break
-                                                                                                                                        end
-                                                                                                                                    end
-                                                                                                                                end
-                                                                                                                                v225 =
-                                                                                                                                    2 -
-                                                                                                                                        1;
-                                                                                                                            end
-                                                                                                                        end
-                                                                                                                    end
-                                                                                                                end
-                                                                                                                break
-                                                                                                            end
-                                                                                                        end
-                                                                                                    end
-                                                                                                    break
-                                                                                                end
-                                                                                            end
-                                                                                            break
-                                                                                        end
-                                                                                        if (v208 == (0 + 0)) then
-                                                                                            v209 = 0;
-                                                                                            v210 = nil;
-                                                                                            v208 = 1;
-                                                                                        end
-                                                                                    end
-                                                                                end
-                                                                                v40 = 703 - (271 + 429);
-                                                                                break
-                                                                            end
-                                                                        end
-                                                                        break
-                                                                    end
-                                                                end
-                                                                break
-                                                            end
-                                                            if (v105 ~= 0) then
-                                                            else
-                                                                v106 = 0;
-                                                                v107 = nil;
-                                                                v105 = 1 + 0;
-                                                            end
-                                                        end
-                                                    end
-                                                    if (v40 == (1500 - (1408 + 92))) then
-                                                        local v108 = 0;
-                                                        local v109;
-                                                        while true do
-                                                            if (v108 == (1086 - (461 + 625))) then
-                                                                v109 = 0;
-                                                                while true do
-                                                                    if ((1288 - (993 + 295)) == v109) then
-                                                                        local v202 = 0 + 0;
-                                                                        while true do
-                                                                            if (v202 == (1171 - (418 + 753))) then
-                                                                                local v206 = 0;
-                                                                                while true do
-                                                                                    if (v206 ~= 0) then
-                                                                                    else
-                                                                                        v41 = {};
-                                                                                        v42 = {};
-                                                                                        v206 = 1 + 0;
-                                                                                    end
-                                                                                    if ((1 + 0) == v206) then
-                                                                                        v202 = 1;
-                                                                                        break
-                                                                                    end
-                                                                                end
-                                                                            end
-                                                                            if (v202 == (1 + 0)) then
-                                                                                v109 = 1;
-                                                                                break
-                                                                            end
-                                                                        end
-                                                                    end
-                                                                    if ((1 + 0) == v109) then
-                                                                        v43 = {};
-                                                                        v40 = 1;
-                                                                        break
-                                                                    end
-                                                                end
-                                                                break
-                                                            end
-                                                        end
-                                                    end
-                                                    v100 = 530 - (406 + 123);
-                                                end
-                                                if ((1770 - (1749 + 20)) ~= v100) then
-                                                else
-                                                    v99 = 1;
-                                                    break
-                                                end
-                                            end
                                         end
                                     end
                                 end
@@ -740,339 +957,368 @@ local function v15(v16, v17, ...)
         end
         if (v18 == 4) then
             function v25()
-                local v47 = v24();
-                local v48 = v24();
-                local v49 = 1 + 0;
-                local v50 = (v21(v48, 1323 - (1249 + 73), 8 + 12) * (((3321 - 2174) - (466 + 679)) ^ (76 - 44))) + v47;
-                local v51 = v21(v48, 21, 88 - 57);
-                local v52 = ((v21(v48, 1932 - (106 + 1794)) == (1 + 0)) and -(1 + 0)) or (167 - (122 + 44));
-                if (v51 == (0 - 0)) then
-                    if (v50 == 0) then
-                        return v52 * (0 - 0);
-                    else
-                        v51 = 115 - (4 + 110);
-                        v49 = 584 - (57 + 527);
+                local v48 = (0 - 0) - 0;
+                local v49;
+                local v50;
+                local v51;
+                local v52;
+                local v53;
+                local v54;
+                while true do
+                    if (v48 == (305 - (244 + 60))) then
+                        v51 = 337 - (144 + 192);
+                        v52 = (v21(v50, (70 + 147) - (42 + 174), 496 - (41 + 435)) *
+                                  (((1614 - (602 + 9)) - ((2836 - (260 + 1638)) + (503 - (382 + 58)))) ^ (25 + 7))) +
+                                  v49;
+                        v48 = 1127 - (936 + 189);
                     end
-                elseif (v51 == (3474 - (41 + 1386))) then
-                    return ((v50 == (103 - (17 + 86))) and (v52 * (1 / (0 - 0)))) or (v52 * NaN);
+                    if (v48 == (2 + 0)) then
+                        v53 = v21(v50, 9 + 12, 1535 - (363 + 1141));
+                        v54 = ((v21(v50, 1612 - (1183 + 397)) == (2 - (1190 - (449 + 740)))) and -((3 - 2) + 0)) or
+                                  (1 + 0);
+                        v48 = (1644 + 334) - (1913 + 62);
+                    end
+                    if ((0 + 0) == v48) then
+                        v49 = v24();
+                        v50 = v24();
+                        v48 = 2 - (1 - 0);
+                    end
+                    if (v48 == ((2808 - (826 + 46)) - ((1679 - 1114) + 1368))) then
+                        if (v53 == (0 - 0)) then
+                            if (v52 == (1661 - (1477 + (1131 - (245 + 702))))) then
+                                return v54 * ((1205 - (902 + 303)) - 0);
+                            else
+                                v53 = 1 + 0;
+                                v51 = 0 - 0;
+                            end
+                        elseif (v53 == (4336 - 2289)) then
+                            return ((v52 == (0 - 0)) and (v54 * ((1 + (0 - 0)) / (0 - 0)))) or (v54 * NaN);
+                        end
+                        return v8(v54, v53 - (1879 - ((1358 - 794) + 292))) * (v51 + (v52 / ((2 - 0) ^ (156 - 104))));
+                    end
                 end
-                return v8(v52, v51 - 1023) * (v49 + (v50 / (((6 - 4) + 0) ^ (115 - 63))));
             end
             v26 = nil;
-            function v26(v53)
-                local v54 = 0 + 0;
-                local v55;
+            function v26(v55)
                 local v56;
-                while true do
-                    if (v54 == (1 + 0)) then
-                        v55 = v3(v16, v19, (v19 + v53) - ((337 + 244) - (361 + 219)));
-                        v19 = v19 + v53;
-                        v54 = 322 - (53 + 169 + 98);
-                    end
-                    if (v54 == (5 - 2)) then
-                        return v6(v56);
-                    end
-                    if ((65 - (30 + 35)) == v54) then
-                        v55 = nil;
-                        if not v53 then
-                            v53 = v24();
-                            if (v53 == (0 + 0)) then
+                if not v55 then
+                    local v86 = 0 + 0;
+                    while true do
+                        if (v86 == (1690 - (1121 + 569))) then
+                            v55 = v24();
+                            if (v55 == (214 - (22 + 192))) then
                                 return "";
                             end
+                            break
                         end
-                        v54 = 1258 - ((1893 - (20 + 830)) + 168 + 46);
-                    end
-                    if (v54 == (984 - (18 + 964))) then
-                        v56 = {};
-                        for v86 = 3 - 2, #v55 do
-                            v56[v86] = v2(v1(v3(v55, v86, v86)));
-                        end
-                        v54 = 1215 - (323 + 889);
                     end
                 end
+                v56 = v3(v16, v19, (v19 + v55) - (684 - (483 + (762 - (334 + 228)))));
+                v19 = v19 + v55;
+                local v57 = {};
+                for v68 = 766 - (468 + 297), #v56 do
+                    v57[v68] = v2(v1(v3(v56, v68, v68)));
+                end
+                return v6(v57);
             end
             v18 = 5;
         end
         if (v18 == 2) then
             function v22()
-                local v57 = v1(v16, v19, v19);
+                local v58 = v1(v16, v19, v19);
                 v19 = v19 + 1;
-                return v57;
+                return v58;
             end
             v23 = nil;
             function v23()
-                local v58, v59 = v1(v16, v19, v19 + (128 - (116 + 10)));
-                v19 = v19 + 1 + 1;
-                return (v59 * (994 - (542 + 196))) + v58;
+                local v59, v60 = v1(v16, v19, v19 + (6 - 4));
+                v19 = v19 + (4 - 2);
+                return (v60 * (463 - 207)) + v59;
             end
             v18 = 3;
         end
         if (v18 == 0) then
             v19 = 1;
             v20 = nil;
-            v16 = v4(v3(v16, 5), "..", function(v60)
-                if (v1(v60, 2) == 79) then
-                    v20 = v0(v3(v60, 1, 1));
-                    return "";
+            v16 = v4(v3(v16, 5), "..", function(v61)
+                if (v1(v61, 2) == 79) then
+                    local v87 = 0;
+                    while true do
+                        if (v87 == 0) then
+                            v20 = v0(v3(v61, 1, 1));
+                            return "";
+                        end
+                    end
                 else
-                    local v83 = v2(v0(v60, 16));
+                    local v88 = v2(v0(v61, 16));
                     if v20 then
-                        local v88 = 0;
-                        local v89;
+                        local v91 = 0;
+                        local v92;
                         while true do
-                            if (v88 == 0) then
-                                v89 = v5(v83, v20);
-                                v20 = nil;
-                                v88 = 1;
+                            if (v91 == 1) then
+                                return v92;
                             end
-                            if (v88 == 1) then
-                                return v89;
+                            if (v91 == 0) then
+                                v92 = v5(v88, v20);
+                                v20 = nil;
+                                v91 = 1;
                             end
                         end
                     else
-                        return v83;
+                        return v88;
                     end
                 end
             end);
             v18 = 1;
         end
         if (v18 == 7) then
-            function v30(v61, v62, v63)
-                local v64 = v61[1];
-                local v65 = v61[2];
-                local v66 = v61[3];
+            function v30(v62, v63, v64)
+                local v65 = v62[1];
+                local v66 = v62[2];
+                local v67 = v62[3];
                 return function(...)
-                    local v67 = v64;
-                    local v68 = v65;
-                    local v69 = v66;
-                    local v70 = v28;
-                    local v71 = 1;
-                    local v72 = -1;
-                    local v73 = {};
-                    local v74 = {...};
-                    local v75 = v12("#", ...) - 1;
+                    local v70 = v65;
+                    local v71 = v66;
+                    local v72 = v67;
+                    local v73 = v28;
+                    local v74 = 1;
+                    local v75 = -1;
                     local v76 = {};
-                    local v77 = {};
-                    for v84 = 0, v75 do
-                        if (v84 >= v69) then
-                            v73[v84 - v69] = v74[v84 + 1];
+                    local v77 = {...};
+                    local v78 = v12("#", ...) - 1;
+                    local v79 = {};
+                    local v80 = {};
+                    for v89 = 0, v78 do
+                        if (v89 >= v72) then
+                            v76[v89 - v72] = v77[v89 + 1];
                         else
-                            v77[v84] = v74[v84 + 1];
+                            v80[v89] = v77[v89 + 1];
                         end
                     end
-                    local v78 = (v75 - v69) + 1;
-                    local v79;
-                    local v80;
+                    local v81 = (v78 - v72) + 1;
+                    local v82;
+                    local v83;
                     while true do
-                        local v85 = 0;
+                        local v90 = 0;
                         while true do
-                            if (v85 == 1) then
-                                if (v80 <= 17) then
-                                    if (v80 <= 8) then
-                                        if (v80 <= 3) then
-                                            if (v80 <= 1) then
-                                                if (v80 == 0) then
-                                                    v77[v79[2]] = v77[v79[3]][v77[v79[4]]];
+                            if (v90 == 0) then
+                                v82 = v70[v74];
+                                v83 = v82[1];
+                                v90 = 1;
+                            end
+                            if (v90 == 1) then
+                                if (v83 <= 18) then
+                                    if (v83 <= 8) then
+                                        if (v83 <= 3) then
+                                            if (v83 <= 1) then
+                                                if (v83 > 0) then
+                                                    v80[v82[2]] = v80[v82[3]];
                                                 else
-                                                    v77[v79[2]] = v77[v79[3]][v77[v79[4]]];
+                                                    v80[v82[2]] = v64[v82[3]];
                                                 end
-                                            elseif (v80 > 2) then
-                                                v77[v79[2]] = v77[v79[3]];
+                                            elseif (v83 == 2) then
+                                                v80[v82[2]] = v80[v82[3]][v82[4]];
                                             else
-                                                v77[v79[2]] = {};
+                                                v80[v82[2]][v82[3]] = v82[4];
                                             end
-                                        elseif (v80 <= 5) then
-                                            if (v80 == 4) then
-                                                local v117 = v79[2];
-                                                v77[v117](v13(v77, v117 + 1, v79[3]));
-                                            else
-                                                local v118 = v79[2];
-                                                local v119 = v79[4];
-                                                local v120 = v118 + 2;
-                                                local v121 = {v77[v118](v77[v118 + 1], v77[v120])};
-                                                for v162 = 1, v119 do
-                                                    v77[v120 + v162] = v121[v162];
-                                                end
-                                                local v122 = v121[1];
-                                                if v122 then
-                                                    local v171 = 0;
-                                                    while true do
-                                                        if (v171 == 0) then
-                                                            v77[v120] = v122;
-                                                            v71 = v79[3];
-                                                            break
-                                                        end
-                                                    end
+                                        elseif (v83 <= 5) then
+                                            if (v83 == 4) then
+                                                if not v80[v82[2]] then
+                                                    v74 = v74 + 1;
                                                 else
-                                                    v71 = v71 + 1;
+                                                    v74 = v82[3];
                                                 end
+                                            else
+                                                v80[v82[2]] = v80[v82[3]][v82[4]];
                                             end
-                                        elseif (v80 <= 6) then
-                                            local v123 = 0;
-                                            local v124;
-                                            local v125;
-                                            local v126;
-                                            while true do
-                                                if (v123 == 1) then
-                                                    v126 = 0;
-                                                    for v193 = v124, v79[4] do
-                                                        v126 = v126 + 1;
-                                                        v77[v193] = v125[v126];
-                                                    end
-                                                    break
-                                                end
-                                                if (v123 == 0) then
-                                                    v124 = v79[2];
-                                                    v125 = {v77[v124](v77[v124 + 1])};
-                                                    v123 = 1;
-                                                end
-                                            end
-                                        elseif (v80 > 7) then
-                                            v77[v79[2]][v79[3]] = v79[4];
+                                        elseif (v83 <= 6) then
+                                            v80[v82[2]] = v80[v82[3]];
+                                        elseif (v83 > 7) then
+                                            v74 = v82[3];
+                                        elseif (v80[v82[2]] == v82[4]) then
+                                            v74 = v74 + 1;
                                         else
-                                            for v187 = v79[2], v79[3] do
-                                                v77[v187] = nil;
-                                            end
+                                            v74 = v82[3];
                                         end
-                                    elseif (v80 <= 12) then
-                                        if (v80 <= 10) then
-                                            if (v80 == 9) then
-                                                if not v77[v79[2]] then
-                                                    v71 = v71 + 1;
+                                    elseif (v83 <= 13) then
+                                        if (v83 <= 10) then
+                                            if (v83 > 9) then
+                                                v80[v82[2]] = v64[v82[3]];
+                                            else
+                                                local v127 = v82[2];
+                                                local v128 = v82[4];
+                                                local v129 = v127 + 2;
+                                                local v130 = {v80[v127](v80[v127 + 1], v80[v129])};
+                                                for v161 = 1, v128 do
+                                                    v80[v129 + v161] = v130[v161];
+                                                end
+                                                local v131 = v130[1];
+                                                if v131 then
+                                                    v80[v129] = v131;
+                                                    v74 = v82[3];
                                                 else
-                                                    v71 = v79[3];
+                                                    v74 = v74 + 1;
+                                                end
+                                            end
+                                        elseif (v83 <= 11) then
+                                            v80[v82[2]][v82[3]] = v82[4];
+                                        elseif (v83 == 12) then
+                                            v80[v82[2]] = v80[v82[3]][v80[v82[4]]];
+                                        elseif (v80[v82[2]] == v82[4]) then
+                                            v74 = v74 + 1;
+                                        else
+                                            v74 = v82[3];
+                                        end
+                                    elseif (v83 <= 15) then
+                                        if (v83 == 14) then
+                                            v80[v82[2]] = v82[3];
+                                        else
+                                            local v136 = v82[2];
+                                            local v137 = v80[v82[3]];
+                                            v80[v136 + 1] = v137;
+                                            v80[v136] = v137[v82[4]];
+                                        end
+                                    elseif (v83 <= 16) then
+                                        local v141 = v82[2];
+                                        local v142 = {v80[v141](v80[v141 + 1])};
+                                        local v143 = 0;
+                                        for v164 = v141, v82[4] do
+                                            v143 = v143 + 1;
+                                            v80[v164] = v142[v143];
+                                        end
+                                    elseif (v83 == 17) then
+                                        if not v80[v82[2]] then
+                                            v74 = v74 + 1;
+                                        else
+                                            v74 = v82[3];
+                                        end
+                                    else
+                                        v74 = v82[3];
+                                    end
+                                elseif (v83 <= 27) then
+                                    if (v83 <= 22) then
+                                        if (v83 <= 20) then
+                                            if (v83 > 19) then
+                                                local v144 = v82[2];
+                                                local v145 = v82[4];
+                                                local v146 = v144 + 2;
+                                                local v147 = {v80[v144](v80[v144 + 1], v80[v146])};
+                                                for v167 = 1, v145 do
+                                                    v80[v146 + v167] = v147[v167];
+                                                end
+                                                local v148 = v147[1];
+                                                if v148 then
+                                                    v80[v146] = v148;
+                                                    v74 = v82[3];
+                                                else
+                                                    v74 = v74 + 1;
                                                 end
                                             else
                                                 do
                                                     return;
                                                 end
                                             end
-                                        elseif (v80 == 11) then
-                                            local v127 = v79[2];
-                                            local v128 = v77[v79[3]];
-                                            v77[v127 + 1] = v128;
-                                            v77[v127] = v128[v79[4]];
+                                        elseif (v83 > 21) then
+                                            v80[v82[2]] = {};
                                         else
-                                            v71 = v79[3];
+                                            v80[v82[2]] = v80[v82[3]][v80[v82[4]]];
                                         end
-                                    elseif (v80 <= 14) then
-                                        if (v80 == 13) then
-                                            if (v77[v79[2]] == v77[v79[4]]) then
-                                                v71 = v71 + 1;
-                                            else
-                                                v71 = v79[3];
-                                            end
-                                        elseif (v77[v79[2]] == v79[4]) then
-                                            v71 = v71 + 1;
+                                    elseif (v83 <= 24) then
+                                        if (v83 == 23) then
+                                            v80[v82[2]] = v82[3];
                                         else
-                                            v71 = v79[3];
+                                            local v154 = v82[2];
+                                            v80[v154](v13(v80, v154 + 1, v82[3]));
                                         end
-                                    elseif (v80 <= 15) then
-                                        v77[v79[2]] = v63[v79[3]];
-                                    elseif (v80 == 16) then
-                                        v77[v79[2]] = {};
-                                    elseif (v77[v79[2]] == v79[4]) then
-                                        v71 = v71 + 1;
+                                    elseif (v83 <= 25) then
+                                        local v155 = v82[2];
+                                        local v156 = v80[v82[3]];
+                                        v80[v155 + 1] = v156;
+                                        v80[v155] = v156[v82[4]];
+                                    elseif (v83 == 26) then
+                                        if (v80[v82[2]] == v80[v82[4]]) then
+                                            v74 = v74 + 1;
+                                        else
+                                            v74 = v82[3];
+                                        end
+                                    elseif (v80[v82[2]] == v80[v82[4]]) then
+                                        v74 = v74 + 1;
                                     else
-                                        v71 = v79[3];
+                                        v74 = v82[3];
                                     end
-                                elseif (v80 <= 26) then
-                                    if (v80 <= 21) then
-                                        if (v80 <= 19) then
-                                            if (v80 > 18) then
-                                                local v135 = v79[2];
-                                                local v136 = v77[v79[3]];
-                                                v77[v135 + 1] = v136;
-                                                v77[v135] = v136[v79[4]];
-                                            else
-                                                v71 = v79[3];
+                                elseif (v83 <= 32) then
+                                    if (v83 <= 29) then
+                                        if (v83 == 28) then
+                                            for v170 = v82[2], v82[3] do
+                                                v80[v170] = nil;
                                             end
-                                        elseif (v80 > 20) then
-                                            local v141 = v79[2];
-                                            v77[v141](v13(v77, v141 + 1, v79[3]));
                                         else
                                             do
                                                 return;
                                             end
                                         end
-                                    elseif (v80 <= 23) then
-                                        if (v80 == 22) then
-                                            v77[v79[2]] = v79[3];
-                                        else
-                                            v77[v79[2]] = v77[v79[3]];
-                                        end
-                                    elseif (v80 <= 24) then
-                                        v77[v79[2]] = v79[3] ~= 0;
-                                    elseif (v80 > 25) then
-                                        v77[v79[2]] = v77[v79[3]][v79[4]];
-                                    elseif (v77[v79[2]] == v77[v79[4]]) then
-                                        v71 = v71 + 1;
+                                    elseif (v83 <= 30) then
+                                        v80[v82[2]] = {};
+                                    elseif (v83 > 31) then
+                                        v80[v82[2]] = v82[3] ~= 0;
                                     else
-                                        v71 = v79[3];
+                                        v80[v82[2]] = v82[3] ~= 0;
                                     end
-                                elseif (v80 <= 30) then
-                                    if (v80 <= 28) then
-                                        if (v80 > 27) then
-                                            if not v77[v79[2]] then
-                                                v71 = v71 + 1;
-                                            else
-                                                v71 = v79[3];
-                                            end
+                                elseif (v83 <= 34) then
+                                    if (v83 > 33) then
+                                        if (v82[2] == v80[v82[4]]) then
+                                            v74 = v74 + 1;
                                         else
-                                            v77[v79[2]] = v79[3] ~= 0;
+                                            v74 = v82[3];
                                         end
-                                    elseif (v80 > 29) then
-                                        local v148 = v79[2];
-                                        local v149 = {v77[v148](v77[v148 + 1])};
-                                        local v150 = 0;
-                                        for v165 = v148, v79[4] do
-                                            v150 = v150 + 1;
-                                            v77[v165] = v149[v150];
-                                        end
+                                    elseif (v82[2] == v80[v82[4]]) then
+                                        v74 = v74 + 1;
                                     else
-                                        v77[v79[2]] = v77[v79[3]][v79[4]];
+                                        v74 = v82[3];
                                     end
-                                elseif (v80 <= 32) then
-                                    if (v80 > 31) then
-                                        local v153 = v79[2];
-                                        local v154 = v79[4];
-                                        local v155 = v153 + 2;
-                                        local v156 = {v77[v153](v77[v153 + 1], v77[v155])};
-                                        for v168 = 1, v154 do
-                                            v77[v155 + v168] = v156[v168];
-                                        end
-                                        local v157 = v156[1];
-                                        if v157 then
-                                            local v181 = 0;
-                                            while true do
-                                                if (v181 == 0) then
-                                                    v77[v155] = v157;
-                                                    v71 = v79[3];
-                                                    break
+                                elseif (v83 <= 35) then
+                                    for v172 = v82[2], v82[3] do
+                                        v80[v172] = nil;
+                                    end
+                                elseif (v83 == 36) then
+                                    local v187 = 0;
+                                    local v188;
+                                    local v189;
+                                    local v190;
+                                    while true do
+                                        if (v187 == 1) then
+                                            v190 = 0;
+                                            for v209 = v188, v82[4] do
+                                                local v210 = 0;
+                                                while true do
+                                                    if (0 == v210) then
+                                                        v190 = v190 + 1;
+                                                        v80[v209] = v189[v190];
+                                                        break
+                                                    end
                                                 end
                                             end
-                                        else
-                                            v71 = v71 + 1;
+                                            break
                                         end
-                                    else
-                                        v77[v79[2]] = v79[3];
-                                    end
-                                elseif (v80 <= 33) then
-                                    v77[v79[2]][v79[3]] = v79[4];
-                                elseif (v80 == 34) then
-                                    for v189 = v79[2], v79[3] do
-                                        v77[v189] = nil;
+                                        if (v187 == 0) then
+                                            v188 = v82[2];
+                                            v189 = {v80[v188](v80[v188 + 1])};
+                                            v187 = 1;
+                                        end
                                     end
                                 else
-                                    v77[v79[2]] = v63[v79[3]];
+                                    local v191 = 0;
+                                    local v192;
+                                    while true do
+                                        if (v191 == 0) then
+                                            v192 = v82[2];
+                                            v80[v192](v13(v80, v192 + 1, v82[3]));
+                                            break
+                                        end
+                                    end
                                 end
-                                v71 = v71 + 1;
+                                v74 = v74 + 1;
                                 break
-                            end
-                            if (v85 == 0) then
-                                v79 = v67[v71];
-                                v80 = v79[1];
-                                v85 = 1;
                             end
                         end
                     end
@@ -1083,5 +1329,5 @@ local function v15(v16, v17, ...)
     end
 end
 return v15(
-    "LOL!113O00028O00027O0040026O00F03F022O00604A610CEE412O01023O000DBB0CD641022O00105897BFF341023O005426B3A741022O0030B9DE21F341023O004689EBC44103043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203063O0055736572496403053O00706169727303043O004B69636B032A3O00596F7520617265206E6F7420617574686F72697A656420746F207573652074686973207363726970742E004F3O0012163O00014O0022000100053O0026113O0044000100020004123O004400012O0022000500053O0026110001001B000100010004123O001B0001001216000600013O0026110006000C000100030004123O000C0001001216000100033O0004123O001B000100261100060008000100010004123O000800012O000200073O00060030080007000400050030080007000600050030080007000700050030080007000800050030080007000900050030080007000A00052O0003000200073O0012230007000B3O00201A00070007000C00201A00030007000D001216000600033O0004123O0008000100261100010028000100030004123O00280001001216000600013O00261100060022000100030004123O00220001001216000100023O0004123O002800010026110006001E000100010004123O001E000100201A00040003000E2O0001000500020004001216000600033O0004123O001E000100261100010005000100020004123O000500010012230006000F4O0003000700024O001E0006000200080004123O00360001001223000B000B3O00201A000B000B000C00201A000B000B000D00201A000B000B000E000619000B00360001000A0004123O003600012O0018000500013O0004123O003800010006200006002E000100020004123O002E000100061C0005004E000100010004123O004E00010012230006000B3O00201A00060006000C00201A00060006000D002013000600060010001216000800114O00040006000800012O000A3O00013O0004123O004E00010004123O000500010004123O004E00010026113O0048000100030004123O004800012O0022000300043O0012163O00023O0026113O0002000100010004123O00020001001216000100014O0022000200023O0012163O00033O0004123O000200012O000A3O00017O00",
+    "LOL!123O00028O00026O00F03F027O0040022O00604A610CEE412O01023O000DBB0CD641022O00105897BFF341023O005426B3A741022O0030B9DE21F341023O004689EBC441022O004091574AD84103043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203063O0055736572496403053O00706169727303043O004B69636B032F3O005370696B696E672E2042612O6E656420756E74696C204A616E756172792031322C20323032352031373A32303A343900483O00120E3O00014O0023000100053O000E210002000600013O0004123O000600012O0023000300043O00120E3O00033O0026073O000B000100010004123O000B000100120E000100014O0023000200023O00120E3O00023O0026073O0002000100030004123O000200012O0023000500053O0026070001001D000100010004123O001D00012O001E00063O000700300B00060004000500300B00060006000500300B00060007000500300B00060008000500300B00060009000500300B0006000A000500300B0006000B00052O0001000200063O00122O0006000C3O00200500060006000D00200500030006000E00120E000100023O00260700010022000100020004123O0022000100200500040003000F2O001500050002000400120E000100033O0026070001000E000100030004123O000E000100122O000600104O0001000700024O00100006000200080004123O0030000100122O000B000C3O002005000B000B000D002005000B000B000E002005000B000B000F00061B000B00300001000A0004123O003000012O0020000500013O0004123O0032000100060900060028000100020004123O0028000100061100050047000100010004123O0047000100120E000600013O00260700060035000100010004123O0035000100120E000700013O00260700070038000100010004123O0038000100122O0008000C3O00200500080008000D00200500080008000E00200F00080008001100120E000A00124O00250008000A00012O001D3O00013O0004123O003800010004123O003500010004123O004700010004123O000E00010004123O004700010004123O000200012O001D3O00017O00",
     v9(), ...);
