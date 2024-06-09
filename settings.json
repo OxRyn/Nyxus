@@ -1,0 +1,8 @@
+{
+  "author": "._m4n",
+  "version": "12.5",
+  "description": "Script made for WS members to enhance farming and PvP.",
+  "release": "May 9, 2024",
+  "git_repo": "https://github.com/ItzAmanKoushal/Nyxus",
+  "loadstring": "loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzAmanKoushal/Nyxus/main/Headless.lua"))()"
+}
