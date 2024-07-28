@@ -1,4 +1,5 @@
 local allowedUserIDs = {
+	[2888879281] = true,
 	[5301171585] = true,
 	[198808362] = true,
 	[701960844] = true,
