@@ -1,6 +1,6 @@
 -- (loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzAmanKoushal/Nyxus/main/Assets/id.lua")))();
 local VLibrary = (loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL")))();
-local window = VLibrary:Window("WS Farming Script", "Age Of Heros");
+local window = VLibrary:Window("WS Farming Script", "Age Of Heros", "WS");
 local Tank_Settings = window:Tab("Tank Settings Menu");
 local Puncher_Settings = window:Tab("Puncher Settings Menu");
 _G.metalskin = false;
