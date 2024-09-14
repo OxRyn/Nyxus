@@ -892,7 +892,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
+		LoadingFrame.Version.Text = "UI Version: 7.8"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
@@ -922,6 +922,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 	AddDraggingFunctionality(Topbar,Main)
 	AddDraggingFunctionality(Elements,Main)
+	AddDraggingFunctionality(LoadingFrame, Main)
+	AddDraggingFunctionality(TabList, Main)
 
 	for _, TabButton in ipairs(TabList:GetChildren()) do
 		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
@@ -2480,7 +2482,7 @@ Topbar.Hide.MouseButton1Click:Connect(function()
 end)
 
 UserInputService.InputBegan:Connect(function(input, processed)
-	if (input.KeyCode == Enum.KeyCode.K and not processed) then
+	if (input.KeyCode == Enum.KeyCode.LeftControl and not processed) then
 		if Debounce then return end
 		if Hidden then
 			Hidden = false
