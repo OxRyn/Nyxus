@@ -920,8 +920,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 		end
 	end)
 
-	AddDraggingFunctionality(Topbar,Main)
-	AddDraggingFunctionality(Elements,Main)
+
 
 	for _, TabButton in ipairs(TabList:GetChildren()) do
 		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
