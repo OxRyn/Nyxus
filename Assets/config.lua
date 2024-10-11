@@ -3,5 +3,5 @@ return {
     "GUIVersion": 6.5,
     "Author": "._m4n",
     "IsEnabled": true,
-    "IsIdEnabled": false
+    "IsIdEnabled": true
 }
