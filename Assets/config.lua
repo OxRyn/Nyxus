@@ -7,5 +7,5 @@
         IsEnabled = true,
         IsIdEnabled = true,
         Loadstring = "(loadstring(game:HttpGet('https://raw.githubusercontent.com/ItzAmanKoushal/Nyxus/main/Elevate.main.lua')))();",
-        SHA = ""
+        SHA = "a49e41e2-a718-4282-ba98-727a973c8d80"
     }
