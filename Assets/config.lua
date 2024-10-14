@@ -9,5 +9,5 @@ return {
     "Loadstring": "(loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ItzAmanKoushal/Nyxus/main/Elevate.main.lua\")))();",
     "UUID": "727a973c8d80",
     "joinsON": true,
-    "musicON": true
+    "musicON": false
 }
