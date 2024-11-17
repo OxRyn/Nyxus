@@ -830,7 +830,7 @@ local function closeSearch()
 	Main.Search.Input.Interactable = false
 end
 
-local function Hide(notify)
+local function Hide(notify: boolean?)
 	if MPrompt then
 		MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		MPrompt.Position = UDim2.new(0.5, 0, 0, -50)
