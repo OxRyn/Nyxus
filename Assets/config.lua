@@ -1,8 +1,8 @@
 return {
     "Author": "._m4n",
-    "Package": "mini-patrixx",
+    "Package": "elevate-gui",
     "Version": 12,
-    "GUIVersion": 6.5,
+    "GUIVersion": 8.0,
     "IsOwner": false,
     "IsEnabled": true,
     "IsIdEnabled": true,
