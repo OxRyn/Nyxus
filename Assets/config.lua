@@ -4,7 +4,7 @@ return {
     "Version": 12,
     "GUIVersion": 8,
     "IsOwner": false,
-    "IsEnabled": false,
+    "IsEnabled": true,
     "IsIdEnabled": true,
     "Loadstring": "(loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OxRyn/Nyxus/main/Elevate.main.lua\")))();",
     "UUID": "727a973c8d80",
