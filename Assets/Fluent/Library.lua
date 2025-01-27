@@ -412,7 +412,7 @@ local aa = {
 			Acrylic = True,
 			Transparency = true,
 			MinimizeKeybind = nil,
-			MinimizeKey = Enum.KeyCode.End,
+			MinimizeKey = Enum.KeyCode.LeftControl,
 			GUI = w
 		};
 		function x.SafeCallback(y, z, ...)
@@ -1804,7 +1804,7 @@ local aa = {
 				Position = UDim2.fromOffset(j.ViewportSize.X / 2 - t.Size.X.Offset / 2, j.ViewportSize.Y / 2 - t.Size.Y.Offset / 2)
 			}, false;
 			local A, B = false;
-			local C = false;
+			local C = true;
 			v.AcrylicPaint = n.AcrylicPaint();
 			local D, E = s("Frame", {
 				Size = UDim2.fromOffset(4, 0),
