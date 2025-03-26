@@ -5,7 +5,7 @@ local HttpService = game:GetService("HttpService")
 local Script = HttpService:JSONDecode(Json)
 local IsAuth
 if Script.IsIdEnabled then
-	IsAuth = (loadstring(game:HttpGet("https://raw.githubusercontent.com/OxRyn/Nyxus/main/Assets/edgeId.lua")))();
+	IsAuth = true
 else
 	IsAuth = true	
 end
