@@ -67,7 +67,9 @@ local cloneref = cloneref or function(o)
 end
 Lighting = cloneref(game:GetService("Lighting"))
 
-if Script.IsEnabled then
+
+local IsEnabled = true
+if IsEnabled then
 	if IsAuth then
 		local playerCreationTime = player.AccountAge * 86400 -- AccountAge gives days, convert to seconds (Unix timestamp approximation)
 		local accountCreationUnixTime = os.time() - playerCreationTime
