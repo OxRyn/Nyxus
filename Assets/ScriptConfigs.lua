@@ -6,7 +6,7 @@ return {
     "IsOwner": false,
     "UUID": "8bf9152000e8",
     "IsEdgeEnabled": true,  
-    "IsGhostEnabled": false, 
+    "IsGhostEnabled": true, 
     "IsElevateEnabled": true, 
     "IsSaranEnabled": false, 
 }
