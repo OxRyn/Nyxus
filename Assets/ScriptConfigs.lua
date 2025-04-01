@@ -1,4 +1,3 @@
-
 return {
     "Author": "._m4n",
     "Package": "nyxus-raw",
