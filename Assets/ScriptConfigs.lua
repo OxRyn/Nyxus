@@ -9,4 +9,8 @@ return {
     "IsGhostEnabled": true, 
     "IsElevateEnabled": true, 
     "IsSaranEnabled": false, 
+    "IsEdgeIdEnabled": true,  
+    "IsGhostIdEnabled": true, 
+    "IsElevateIdEnabled": true, 
+    "IsSaranIdEnabled": false, 
 }
