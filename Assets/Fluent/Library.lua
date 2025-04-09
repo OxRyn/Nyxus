@@ -4,6 +4,7 @@ local a, b = {{1, "ModuleScript", {"MainModule"},
                                                                                       {52, "ModuleScript", {"Light"}},
                                                                                       {51, "ModuleScript", {"Darker"}},
                                                                                       {53, "ModuleScript", {"Rose"}},
+                                                                                      {54, "ModuleScript", {"Baby Pink"}},
                                                                                       {49, "ModuleScript", {"Aqua"}},
                                                                                       {48, "ModuleScript", {"Amethyst"}}}},
                 {19, "ModuleScript", {"Elements"},
@@ -4512,7 +4513,7 @@ local aa = {
     [47] = function()
         local aa, ab, ac, ad, ae = b(47);
         local af = {
-            Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose"}
+            Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Baby Pink"}
         };
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah);
@@ -4747,7 +4748,48 @@ local aa = {
             Hover = Color3.fromRGB(200, 120, 170),
             HoverChange = 0.04
         };
+    end,
+    [54] = function()
+        local aa, ab, ac, ad, ae = b(54);
+        return {
+            Name = "Baby Pink",
+            Accent = Color3.fromRGB(255, 182, 193),
+            AcrylicMain = Color3.fromRGB(250, 240, 245),
+            AcrylicBorder = Color3.fromRGB(255, 200, 210),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 192, 203), Color3.fromRGB(255, 182, 193)),
+            AcrylicNoise = 0.9,
+            TitleBarLine = Color3.fromRGB(255, 160, 180),
+            Tab = Color3.fromRGB(255, 210, 220),
+            Element = Color3.fromRGB(255, 200, 210),
+            ElementBorder = Color3.fromRGB(220, 150, 160),
+            InElementBorder = Color3.fromRGB(230, 180, 190),
+            ElementTransparency = 0.88,
+            ToggleSlider = Color3.fromRGB(255, 200, 210),
+            ToggleToggled = Color3.fromRGB(240, 140, 160),
+            SliderRail = Color3.fromRGB(255, 200, 210),
+            DropdownFrame = Color3.fromRGB(255, 220, 230),
+            DropdownHolder = Color3.fromRGB(240, 180, 190),
+            DropdownBorder = Color3.fromRGB(230, 150, 160),
+            DropdownOption = Color3.fromRGB(255, 200, 210),
+            Keybind = Color3.fromRGB(255, 200, 210),
+            Input = Color3.fromRGB(255, 200, 210),
+            InputFocused = Color3.fromRGB(240, 160, 170),
+            InputIndicator = Color3.fromRGB(255, 230, 240),
+            Dialog = Color3.fromRGB(240, 180, 190),
+            DialogHolder = Color3.fromRGB(230, 160, 170),
+            DialogHolderLine = Color3.fromRGB(220, 140, 150),
+            DialogButton = Color3.fromRGB(240, 180, 190),
+            DialogButtonBorder = Color3.fromRGB(250, 190, 200),
+            DialogBorder = Color3.fromRGB(230, 150, 160),
+            DialogInput = Color3.fromRGB(245, 170, 185),
+            DialogInputLine = Color3.fromRGB(255, 230, 240),
+            Text = Color3.fromRGB(80, 30, 40),
+            SubText = Color3.fromRGB(150, 100, 110),
+            Hover = Color3.fromRGB(255, 190, 200),
+            HoverChange = 0.06
+        };
     end
+    
 };
 do
     local ab, ac, ad, ae, af, ag, ah, aj, c, e, f, g, h, i, j, k = task, setmetatable, error, newproxy, getmetatable,
