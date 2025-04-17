@@ -11,6 +11,6 @@ return {
     ["IsSaranEnabled"] = false, 
     ["IsEdgeIdEnabled"] = true,  
     ["IsGhostIdEnabled"] = true, 
-    ["IsElevateIdEnabled"] = true, 
+    ["IsElevateIdEnabled"] = false, 
     ["IsSaranIdEnabled"] = false
 }
