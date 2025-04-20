@@ -1251,7 +1251,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	local Passthrough = false
 	Topbar.Title.Text = Settings.Name
 
-	Main.Size = UDim2.new(0, 420, 0, 428)
+	Main.Size = UDim2.new(0, 420, 0, 300)
 	Main.Visible = true
 	Main.BackgroundTransparency = 1
 	if Main:FindFirstChild('Notice') then Main.Notice.Visible = false end
@@ -1296,7 +1296,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "Elevate",
+					Title = "Notifier",
 					Content = "Enjoying this script?, thank the creator : ._m4n",
 					Duration = 7,
 					Image = 4370033185,
